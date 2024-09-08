@@ -1,4 +1,4 @@
-# Two Sets
+# CSES - Two Sets
 I recently began attempting [CSES](https://cses.fi/) problems. More specifically, I am trying to complete this [list](https://cses.fi/alon/list/) 
 of questions. Hopefully after completing these problems, I'll be able to solve more interesting problems while learning alot of new things too.
 Without further ado, let's dive right in! 
@@ -6,14 +6,14 @@ Without further ado, let's dive right in!
 # Question Statement
 The full question can be found [here](https://cses.fi/alon/task/1092/). I have linked it below as well, feel free to attempt it too :-)
 
-Your task is to divide the numbers $1,2,\ldots,n$ into two sets of equal sum.
+Your task is to divide the numbers from 1 to `n` into two sets of equal sum.
 ##### Input
 The only input line contains an integer n.
 ##### Output
 Print "YES", if the division is possible, and "NO" otherwise.
 After this, if the division is possible, print an example of how to create the sets. First, print the number of elements in the first set followed by the elements themselves in a separate line, and then, print the second set in a similar way.
 ##### Constraints
-$1 \le n \le 10^6$
+`1 <= n <= 10^6`
 ###### Example 1
 ```
 Input:
