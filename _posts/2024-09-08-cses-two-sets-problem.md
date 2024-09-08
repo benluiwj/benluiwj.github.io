@@ -76,11 +76,7 @@ Then we will have `4k, 4k+1, 4k+2, 4k+3`. Notice that `4k + 4k+3 == 4k + 1 + 4k 
 I was able to get the Naive and DP solution but what surprised me was that I had a memory issue because the size of the table I was trying to allocate was too big. Hence, I went to google how this should be done instead. It was quite interesting to see how math can make the problem and solution much simpler than a DP/DFS form. 
 ## Final Solution
 ```
-#include <cmath>
-#include <iostream>
-#include <string>
-#include <unordered_set>
-#include <vector>
+// includes are excluded because it seems to mess with the html for some reason...
 
 #define ll long long
 
